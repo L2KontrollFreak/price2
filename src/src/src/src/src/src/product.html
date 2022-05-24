@@ -1,30 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price</title>
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
+
 <body>
-    <!-- add a product list-->
+    <!--make a list for each product by using div tags and article and section-->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Price Slider</h1>
-                <div class="slider">
-                    <input type="range" min="0" max="100" value="50" class="slider__range">
-                    <output class="slider__output">1000</output>
-                </div>
-            </div>
-        </div>
-        <!--add a cart icon for people to add to their list-->
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Cart</h1>
-                <div class="cart">
-                    <img src="https://www.pngfind.com/pngs/m/8-85831_cart-icon-png-transparent-png.png" alt="cart">
-                </div>
-            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Price Calculator</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <article class="product">
+                                                    <section class="product-image">
+                                                        <img src=""
+                                                            alt="">
+                                                    </section>
+                                                    <section class="product-details">
+                                                        <h3>Product Name</h3>
+                                                        <p>Product description</p>
+                                                        <button class="btn btn-primary">Confirm</button> 
+                                                    </section>
+                                                </article>
+                                            </td>
+                                            <td>$100</td>
+                                            <td>
+                                                <input type="number" class="form-control" value="1">
+                                            </td>
+                                            <td>$100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <article class="product">
+                                                    <section class="product-image">
+                                                        <img src="http://placehold.it/100x100" alt="">
+                                                    </section>
+                                                    <section class="product-details">
+                                                        <h3>Product Name</h3>
+                                                        <p>Product description</p>
+                                                        <!-- make a confirm button for each purchase-->
+                                                        <button class="btn btn-primary">Confirm</button>
+                                                    </section>
+                                                </article>
+                                            </td>
+                                            <td>$100</td>
+                                            <td>
+                                                <input type="number" class="form-control" value="1">
+                                            </td>
+                                            <td>$100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <article class="product">
+                                                    <section class="product-image">
+                                                        <img src="http://placehold.it/100x100" alt="">
+                                                    </section>
+                                                    <section class="product-details">
+                                                        <h3>Product Name</h3>
+                                                        <p>Product description</p>
+                                                        <!-- make a confirm button for each purchase-->
+                                                        <button class="btn btn-primary">Confirm</button>
+                                                    </section>
+                                                </article>
+                                            </td>
+                                            <td>$100</td>
+                                            <td>
+                                                <input type="number" class="form-control" value="1">
+                                            </td>
+                                            <td>$100</td>
+
+
 </body>
+
 </html>
